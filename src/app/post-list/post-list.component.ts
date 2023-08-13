@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
-import { PageEvent } from '@angular/material/paginator'; // Import PageEvent
+import { PageEvent } from '@angular/material/paginator'; 
 
 @Component({
   selector: 'app-post-list',
@@ -9,8 +9,8 @@ import { PageEvent } from '@angular/material/paginator'; // Import PageEvent
 })
 export class PostListComponent implements OnInit {
   posts: any[] = [];
-  pageSize = 5; // Number of rows per page
-  pageIndex = 0; // Current page index
+  pageSize = 5; // 
+  pageIndex = 0; // 
 
   constructor(private apiService: ApiService) {}
 
@@ -29,7 +29,7 @@ export class PostListComponent implements OnInit {
     );
   }
 
-  // Function to handle page change event
+  
   onPageChange(event: PageEvent) {
     this.pageIndex = event.pageIndex;
   }
