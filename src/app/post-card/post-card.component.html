@@ -1,0 +1,8 @@
+<div class="card" *ngIf="post?.shortcode">
+  <div class="card-header">{{ post?.shortcode }}</div>
+  <div class="card-content">
+    <div *ngIf="post?.likes">Likes: {{ post?.likes }}</div>
+    <div *ngIf="post?.comment">Comments: {{ post?.comment }}</div>
+    <div *ngIf="post?.timestamp">Timestamp: {{ post?.timestamp }}</div>
+  </div>
+</div>
