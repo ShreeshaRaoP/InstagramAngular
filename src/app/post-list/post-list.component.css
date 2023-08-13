@@ -1,11 +1,11 @@
-/* Apply styles to the post list component */
+
 .post-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Style each individual post card */
+
 .post-card {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -16,7 +16,7 @@
   background-color: #ffffff;
 }
 
-/* Apply styles to post card elements */
+
 .post-card h3 {
   font-size: 18px;
   margin-bottom: 8px;
@@ -27,7 +27,7 @@
   margin: 4px 0;
 }
 
-/* Add hover effect to post cards */
+
 .post-card:hover {
   background-color: #f5f5f5;
   cursor: pointer;
